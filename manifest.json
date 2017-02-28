@@ -1,0 +1,14 @@
+﻿ {
+  "short_name": "ColorPikr",
+  "name": "ColorPikr",
+  "icons": [
+    {
+      "src": "colorpikr-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

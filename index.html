@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		+++++++++++++++++++++++++++++++++++++++++++++
+		||\\  || ||\/\/ ||\/\ ||\/\  * ||\  /|| ||\/\
+		|| \\ || ||==   ||__/ ||  \\ * ||\\//|| ||__/  Rules.
+		||  \\|| ||/\/\ || \\ ||/\// * || \/ || || \\
+		+++++++++++++++++++++++++++++++++++++++++++++
+	-->
+	<meta charset="utf-8" />
+	<meta name="google-site-verification" content="qe7YPX0TSzxcnHMo0kuB8sMbI9kNe1hsyYPA8FP1vS8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="ColorPikr">
+	<meta name="Description" content="ColorPickr is a tool for generating random colors that can be downloaded as a single color swatch. This is handy for quickly getting solid color backgrounds to be used in social networks such as Instagram.">
+	<link rel="manifest" href="/manifest.json">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>ColorPikr</title>
+	<link rel="stylesheet" href="styles/app.css" type="text/css" />
+	<script src="Scripts/knockout-3.4.0.js"></script>
+	<script src="app.js"></script>
+	<script>
+		(function (i, s, o, g, r, a, m)
+		{
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function ()
+			{
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-89642224-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body id="body">
+	<div id="palette">
+		<canvas id="save-canvas" width="100%" height="100%"></canvas>
+		<div class="btn shuffle-button" title="Shuffle colors" onclick="colorPikr.Shuffle()"><i class="material-icons">shuffle</i></div>
+		<a target="_blank" class="btn download-button hide" title="Download" href="#" onclick="colorPikr.SaveCanvas()" id="download-button"><i class="material-icons">file_download</i></a>
+	</div>
+</body>
+</html>

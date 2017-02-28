@@ -1,0 +1,6 @@
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\bin\InstaColor.dll.config
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\bin\InstaColor.dll
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\bin\InstaColor.pdb
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\obj\Debug\InstaColor.csprojResolveAssemblyReference.cache
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\obj\Debug\InstaColor.dll
+C:\Users\jbruflod\Documents\Visual Studio 2013\Projects\InstaColor\obj\Debug\InstaColor.pdb
