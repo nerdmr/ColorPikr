@@ -1,6 +1,6 @@
 ## Synopsis
 
-ColorPikr is a tool intended for Instagram story users to put text over a solid color background. It lets a user shuffle a color palette until they see a color they like. They can select the color and select the download icon to download the icon to their device. Then, they can use that swatch as a photo to upload to Instagram stories and put text over it.
+[ColorPikr](http://colorpikr.com) is a mobile web tool intended for Instagram story users to put text over a solid color background. It lets a user shuffle a color palette until they see a color they like. They can select the color and select the download icon to download the icon to their device. Then, they can use that swatch as a photo to upload to Instagram stories and put text over it.
 
 ## Code Example
 
